@@ -102,6 +102,9 @@
   nav.active .menu a {
     font-size: 24px;
   }
+  .indhold {
+    margin: 10px;
+  }
 }
 
 /**FONT*/
@@ -133,7 +136,6 @@ p {
 
 /*****************FOOTER*********************/
 footer {
-  background-color: #31110d;
   padding: 10px;
   bottom: 0;
   left: 0;
@@ -147,7 +149,9 @@ footer {
 
 .logofooter {
   text-align: right;
-  background-color: #31110d;
+}
+.ommig {
+  text-align: left;
 }
 
 /**FOOTER SLUT*/
@@ -281,8 +285,16 @@ footer {
   .burger {
     display: none;
   }
-
   /**Menu SLUT*/
+
+  .indhold {
+    margin: 150px;
+  }
+}
+
+.footerlinje {
+  color: black;
+  border-style: dashed;
 }
 
 /**HOOVER*/
