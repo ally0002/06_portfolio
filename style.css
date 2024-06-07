@@ -105,6 +105,14 @@
   .indhold {
     margin: 10px;
   }
+
+  .underoverskrifterh12 {
+    display: none;
+  }
+
+  .underoverskriftommig {
+    display: block;
+  }
 }
 
 /**FONT*/
@@ -130,6 +138,13 @@ p {
 .underoverskrifterh1 {
   font-size: 55px;
   text-align: center;
+}
+
+.underoverskrifterh12 {
+  font-size: 71px;
+  text-align: center;
+  transform: rotate(90deg);
+  color: #d07d6c;
 }
 
 /**FONT SLUT*/
@@ -289,6 +304,11 @@ footer {
 
   .indhold {
     margin: 150px;
+  }
+  .underoverskriftommig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10%;
   }
 }
 
