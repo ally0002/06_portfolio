@@ -113,16 +113,16 @@
   .underoverskriftommig {
     display: block;
   }
+  h1 {
+    font-family: "Plaster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+  }
 }
 
 /**FONT*/
-h1 {
-  font-family: "Plaster", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  font-size: 100px;
-}
 
 h2 {
   font-family: "Londrina Solid", sans-serif;
@@ -133,6 +133,8 @@ h2 {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 1, 1);
+  font-size: larger;
 }
 
 .underoverskrifterh1 {
@@ -172,6 +174,13 @@ footer {
 /**FOOTER SLUT*/
 
 @media (min-width: 800px) {
+  h1 {
+    font-family: "Plaster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+  }
   /**forside*/
   .mobilforsidebilleder {
     display: grid;
@@ -303,7 +312,8 @@ footer {
   /**Menu SLUT*/
 
   .indhold {
-    margin: 150px;
+    margin: 140px;
+    font-size: small;
   }
   .underoverskriftommig {
     display: grid;
@@ -313,7 +323,7 @@ footer {
 }
 
 .footerlinje {
-  color: black;
+  color: white;
   border-style: dashed;
 }
 
