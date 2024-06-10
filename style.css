@@ -167,7 +167,8 @@ footer {
   text-align: right;
 }
 .ommig {
-  text-align: left;
+  text-align: center;
+  font-size: large;
 }
 
 /**FOOTER SLUT*/
@@ -291,6 +292,7 @@ footer {
     text-decoration: none;
     transition: color 0.3s;
     text-align: end;
+    font-size: larger;
   }
 
   .menu a:hover {
