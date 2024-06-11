@@ -124,6 +124,11 @@
     font-size: 35px;
     text-align: center;
   }
+
+  .footerlinje {
+    color: white;
+    border-style: dashed;
+  }
 }
 
 /**FONT*/
@@ -133,12 +138,14 @@ h2 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  margin: 15px;
 }
 
 p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(8, 1, 1);
-  font-size: larger;
+  font-size: large;
+  margin: 15px;
 }
 
 .underoverskrifterh12 {
@@ -326,11 +333,11 @@ footer {
     grid-template-columns: 1fr 1fr;
     margin: 10%;
   }
-}
 
-.footerlinje {
-  color: white;
-  border-style: dashed;
+  .footerlinje {
+    color: white;
+    border-style: dashed;
+  }
 }
 
 /**HOOVER*/
